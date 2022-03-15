@@ -1,0 +1,17 @@
+class Animal
+{
+   Animal()
+   {
+       System.out.println("Animal");
+   }
+    
+}
+
+public class Constructor
+{
+    public static void main(String args[])
+    {
+        Animal a = new Animal(); // go to constructor and print o/p
+        
+    }
+}
