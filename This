@@ -1,0 +1,17 @@
+ class This{
+    int var;
+    public void keyword(int var)
+    {
+        this.var = var;
+        System.out.println(" "+this.var);
+    }
+    
+}
+
+public class Test{
+    public static void main(String agrs[])
+    {
+        This obj = new This();
+        obj.keyword(10);
+    }
+}
